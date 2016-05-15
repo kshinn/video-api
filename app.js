@@ -54,13 +54,6 @@ function loadUser(req, res, next) {
     });
 }
 
-// To be filled out by cache logic later
-function cacheLayer(key) {
-    return function(req, res, next) {
-        next();
-    };
-}
-
 function transmitResponse(req, res) {
     if (res.statusCode < 210) {
         console.log('returning ' + res.statusCode);
