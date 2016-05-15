@@ -4,8 +4,6 @@ var mongoose = require('mongoose'),
         url: String,
         created: {type: Date, default: Date.now},
         user_id: Schema.Types.ObjectId,
-        likes: Number,
-        dislikes: Number,
         score: {type: Number, default: 0}
     }),
     userSchema = new Schema({
