@@ -1,0 +1,25 @@
+{
+  "name": "video-api",
+  "version": "1.0.0",
+  "description": "A simple API for consuming and tracking videos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kris Shinn",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "lodash": "^4.12.0",
+    "mongoose": "^4.4.17"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-develop": "^0.4.0",
+    "request": "^2.72.0"
+  }
+}
